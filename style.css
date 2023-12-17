@@ -21,7 +21,7 @@
 body {
   
   background-color:#000000;
-  color: #fff;
+  color:aliceblue;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 
@@ -29,6 +29,7 @@ body {
 
 body,html{
   height: 100%;
+  width: 100%;
 }
 
 /* scrollbar*/
@@ -77,29 +78,38 @@ body,html{
   border-bottom: double rgb(82,51,255);
   z-index: 1000;
   /* margin: 70px;  */
-  margin-top: 50px;
+  margin-top: 70px;
   background-color: #000000;
 } 
 
 .icons{
-  top: 35%;
+  top: 25%;
   margin-top: 50px;
   z-index: 1000;
   position: absolute;
  
 }
 
+
 .linkedin{
   margin: 10px;
 }
+
+
+
 
 .github{
   margin-top: 40px;
   margin-left: 10px;
 }
 
+.cv{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
 .bg-body-tertiary{
-  background-color: black !important;
+  background-color: transparent !important;
   /* border-radius: 40px; */
 }
 
@@ -112,6 +122,7 @@ body,html{
 
 nav a{
   font-size: 1.2rem !important;
+  
 }
 
 
@@ -344,20 +355,21 @@ text-align: center;
    background-color: #000000;
    /* display: flex; */
    /* justify-items: baseline; */
-   margin-top: 100px;
+   margin-top: 200px;
+   
 
 
 }
 
 .section_presentation h1{
-  text-align: left;
+  text-align: center;
   font-weight: 800;
   font-family: "Inter", "DM Sans", Arial, sans-serif;
   font-size: 4rem;
-  /* margin-left: 40px; */
+  margin: 40px;
   /* border: solid; */
-     width: 500px;
-     margin-left: 20px;
+     /* width: 500px; */
+     /* margin-left: 20px; */
 
 }
 
@@ -376,7 +388,7 @@ text-align: center;
   width: 420px;
   /* margin-top: 10px; */
   float: left;
-  margin-left: 20px;
+  margin-left: 40px;
   /* border: solid; */
 }
 
@@ -438,15 +450,16 @@ text-align: center;
 }
 
 .skills h1{
-  text-align: left;
+  text-align: center;
   font-weight: 800;
   font-family: "Inter", "DM Sans", Arial, sans-serif;
   font-size: 4rem;
-  margin-left: 50px;
+  margin: 40px;
   /* border: solid; */
-     width: 500px;
+     /* width: 500px; */
 
 }
+
 
 .col{
 border-right: double rgb(82,51,255);
@@ -495,9 +508,8 @@ padding: 20px;
   text-align: center;
   font-weight: 800;
   font-family: "Inter", "DM Sans", Arial, sans-serif;
-  font-size: 5rem;
-  margin-top: 50px;
-  width: 100%;
+  font-size: 4rem;
+  margin-top: 40px;
 }
 
 .Portfolio_explained {
@@ -547,14 +559,14 @@ padding: 20px;
 }
 
 .Projects h1{
-  text-align: left;
+  text-align: center;
   font-weight: 800;
   font-family: "Inter", "DM Sans", Arial, sans-serif;
   font-size: 4rem;
-  /* margin: 40px; */
-  margin-left: 50px;
+  margin: 40px;
+  /* margin-left: 50px; */
   /* border: solid; */
-     width: 700px;
+     /* width: 700px; */
 
 }
 
@@ -563,7 +575,7 @@ padding: 20px;
   background-color: #000000;
   /* margin-top: 100px;    */
   /* border: solid; */
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .col-4{
@@ -608,7 +620,7 @@ padding: 20px;
 
 .first{
       text-align: center;
-      width: 350px;
+      width: 320px;
       position: relative;
       border-top: double rgba(64,83,255,1) ;
       border-right: double rgba(64,83,255,1) ;
@@ -619,7 +631,7 @@ padding: 20px;
 .first img{
   width: 100%;
   height: auto;
-  max-width: 500px;
+  max-width: 320px;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
   cursor: pointer;
@@ -651,13 +663,13 @@ figcaption:hover{
 .images_presentation {
   text-align: center;
   margin: 10px;
-  max-width: 200px;
+  /* max-width: 200px; */
   flex: 1;
   
 }
 
 .images_presentation img {
-  width: 100%;
+  width: 60%;
 }
 
 figcaption {
@@ -682,4 +694,12 @@ footer{
 
 .up svg:hover{
   transform: translateY(-10px);
+}
+
+
+.img-fluid{
+  margin: 10px;
+  position: relative;
+  top: 10%;
+  width: 500px;
 }
