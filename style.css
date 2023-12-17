@@ -268,6 +268,7 @@ text-align: center;
   .title {
     text-align: center;
     margin-top: 30px;
+    margin-right: 30px;
     width: 80vw; 
     font-size: 2rem;
   }
@@ -505,7 +506,7 @@ text-align: center;
 
 @media screen and (max-width: 500px){
   .section_presentation img{
-    width: 300px;
+    width: 250px;
     float: left;
   }
 
@@ -542,6 +543,7 @@ text-align: center;
   
 
 }
+
 
 
 .col{
@@ -642,6 +644,7 @@ padding: 20px;
 }
 
 
+
 .col img{
   width: 200px;
   margin: 0;
@@ -731,11 +734,24 @@ padding: 20px;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
   cursor: pointer;
+}
 
+@media screen and (max-width: 400px){
+  .first img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    cursor: pointer;
+  }
+  .first{
+    
+    width: 250px;
+   
 
 
 }
-
+  
+}
 .first img:hover{
 filter: grayscale(0%);
 }
@@ -783,4 +799,25 @@ footer{
   position: relative;
   top: 10%;
   width: 500px;
+}
+.col p{
+margin-right: 20px;
+padding-right: 20px;
+}
+
+.col .title{
+  font-size: 0.2rem;
+}
+
+@media screen and (max-width: 400px){
+  .img-fluid{
+    margin: 10px;
+    position: relative;
+    top: 10%;
+    width: 300px;
+  }
+
+  .col p{
+    width: 300px;
+  }
 }
