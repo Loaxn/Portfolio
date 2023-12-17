@@ -19,14 +19,14 @@
 
   <div id="preloader">
     <div class="loader">
-      <p>Disover Loana </p>
+      <p>Loading Loana's</p>
       <div class="words">
         <span class="word"></span>
-        <span class="word">a dog lover</span>
-        <span class="word">a comunicator</span>
-        <span class="word">a funny person</span>
-        <span class="word">a determined person</span>
-        <span class="word">an innovator</span>
+        <span class="word">portfolio</span>
+        <span class="word">universe</span>
+        <span class="word">vision</span>
+        <span class="word">passion</span>
+        <span class="word">determination</span>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
         <div class="navbar-nav style=':0'">
-          <a class="nav-link " aria-current="page" href="index.html">About</a>
+          <a class="nav-link " aria-current="page" href="#about">About</a>
           <a class="nav-link" href="#projetcs">Projects</a>
           <a class="nav-link" href="#contact">Contacts</a>
         </div>
@@ -108,8 +108,8 @@
    
    
  
-    <section class="section_presentation"  >
-      <h1 class="title" id="about" data-aos="fade-up"
+    <section class="section_presentation" id="about" >
+      <h1 class="title"  data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-duration="700">  Vision
         <div class="aurora">
@@ -203,6 +203,8 @@
           <div class="aurora__item"></div>
         </div>
       </h1>
+
+      
       <div class="i_am">
                  
             <div class="images_presentation" data-aos="fade-up"
@@ -225,11 +227,10 @@
           </div>
       </div>
 
-
-     
-
-
     </section>
+
+
+
 
     <section class="Projects" id="projetcs">
       <h1 class="title" data-aos="fade-up"
@@ -391,7 +392,6 @@
 var loader = document.getElementById("preloader");
 
 window.addEventListener('DOMContentLoaded', function () {
-  // Wait for 10 seconds (10000 milliseconds) and then hide the loader
   setTimeout(function () {
     loader.style.display = "none";
   },5000);
