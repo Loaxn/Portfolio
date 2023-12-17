@@ -11,11 +11,26 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@500&family=Odibee+Sans&family=Open+Sans:wght@300&family=Oswald:wght@700&family=Poppins&display=swap" rel="stylesheet">
 <body> 
+
+  <div id="preloader">
+    <div class="loader">
+      <p>Disover Loana </p>
+      <div class="words">
+        <span class="word"></span>
+        <span class="word">a dog lover</span>
+        <span class="word">a comunicator</span>
+        <span class="word">a funny person</span>
+        <span class="word">a determined person</span>
+        <span class="word">an innovator</span>
+      </div>
+    </div>
+  </div>
+
   <div id="ambient" style="position: absolute; width: 100%; height: 100%; background: transparent; pointer-events: none;"></div>
   <script src="test.js"></script>
   
@@ -37,7 +52,9 @@
   </nav>
 
     <header>
-
+      
+     
+      
       <div class="bare">
         <div class="icons">
                 
@@ -370,5 +387,15 @@
   <script>
     AOS.init();
   </script>
+<script>
+var loader = document.getElementById("preloader");
+
+window.addEventListener('DOMContentLoaded', function () {
+  // Wait for 10 seconds (10000 milliseconds) and then hide the loader
+  setTimeout(function () {
+    loader.style.display = "none";
+  },5000);
+});
+</script>
 </body>
 </html> 
