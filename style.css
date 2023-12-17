@@ -207,8 +207,14 @@ body,html{
 
 nav a{
   font-size: 1.2rem !important;
+  color: #e1e1e1;
+  font-family: inherit;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
   
 }
+
 
 
 nav a:hover{
