@@ -30,6 +30,7 @@ body {
 body,html{
   height: 100%;
   width: 100%;
+
 }
 
 #preloader{
@@ -133,6 +134,11 @@ body,html{
 
 
 /* scrollbar*/
+
+.no-scroll {
+  overflow: hidden;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   
