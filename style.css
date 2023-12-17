@@ -55,7 +55,7 @@ body,html{
 	pointer-events: none;
 	transition: top linear, left linear;
   z-index: -1;
-  width: 300vh;
+  /* width: 300vh; */
 
 }
 
