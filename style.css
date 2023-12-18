@@ -265,6 +265,9 @@ text-align: center;
   text-align: center;
 }
 
+.main{
+  height: 100vh;
+}
 @media screen and (max-width: 1440px) {
   header {
     height: 400px; 
