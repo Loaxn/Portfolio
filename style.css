@@ -483,7 +483,7 @@ text-align: center;
   
 }
 
-.section_presentation img{
+.section_presentation video{
   width: 420px;
   float: left;
   margin-left: 40px;
@@ -496,7 +496,7 @@ text-align: center;
     align-items: center;
   }
   
-  .section_presentation img{
+  .section_presentation video{
     width: 420px;
     float: left;
     margin-left: 2px;
@@ -515,7 +515,7 @@ text-align: center;
 }
 
 @media screen and (max-width: 500px){
-  .section_presentation img{
+  .section_presentation video{
     width: 250px;
     float: left;
   }
