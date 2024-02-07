@@ -213,11 +213,17 @@ body,html{
 
 nav a{
   font-size: 1.2rem !important;
+  color: aliceblue !important;
   
 }
 
 
 nav a:hover{
+  color: #ff00ff !important;
+  
+}
+
+nav a:hover::after{
   color: #ff00ff !important;
   
 }
